@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+.input-div{
+    margin: 0.1rem;
+}
+
+label {
+    margin: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    border-radius: 0.4rem;
+}
+
+button{
+    padding: 0.7rem;
+    border-radius: 15px; 
+    border:0;
+    background-color: #C6EB12;
+    box-shadow: black;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: #C6EB12;
+}
+
+table{
+    width: 100%;
+    padding: 0.1rem;
+    padding-top: 0;
+    /* border: 1px solid black; */
+    color: #a8eb12;
+}
+
+th{
+    border: 1px solid black;
+    padding: 4px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+}
+
+.edit{
+    background-color: orange;
+    margin: 10px;  
+}
+
+.delete{
+    background-color: tomato;
+    margin: 10px;  
+}

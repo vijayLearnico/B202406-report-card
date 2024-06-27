@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <center>
+      <h1>Report Card</h1>
+    </center>
+    <form id="Myform">
+      <div class="input-div">
+        <label style="margin-right: 0.9rem">Name</label>
+        <input type="text" placeholder="Enter Student's name" id="name" />
+      </div>
+      <br />
+      <div class="input-div">
+        <label>Tamil</label>
+        <input type="number" placeholder="Enter Tamil Mark" id="tamil" />
+      </div>
+      <br />
+      <div class="input-div">
+        <label style="margin-right: 0.3rem">English</label>
+        <input type="number" placeholder="Enter English Mark" id="english" />
+      </div>
+      <br />
+      <div class="input-div">
+        <label style="margin-right: 0.9rem">Maths</label>
+        <input type="number" placeholder="Enter Maths Mark" id="maths" />
+      </div>
+      <br />
+      <div class="input-div">
+        <label style="margin-right: 0.3rem">Science</label>
+        <input type="number" placeholder="Enter Science Mark" id="science" />
+      </div>
+      <br />
+      <div class="input-div">
+        <label style="margin-right: 0.9rem">Social</label>
+        <input type="number" placeholder="Enter Social Mark" id="social" />
+      </div>
+      <br />
+    </form>
+    <center>
+      <button type="button" onclick="generate()">Generate</button>
+      <button type="button" onclick="clearResult()">Clear</button>
+      <i class="fa fa-arrow-down" aria-hidden="true"></i>
+    </center>
+    <center>
+      <h3>Result</h3>
+    </center>
+    <div id="result">
+      <table>
+        <thead>
+          <tr>
+            <th>Student Name</th>
+            <th>Tamil</th>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Social</th>
+            <th>Overall Grade</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+      </table>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
